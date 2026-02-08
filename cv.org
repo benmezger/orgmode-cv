@@ -1,0 +1,214 @@
+#+AUTHOR: John Doe
+#+TITLE: John Doe
+#+DESCRIPTION: Senior Software Engineer
+#+KEYWORDS: Python, Go, Software Engineering, API Development, Tooling, Django, FastAPI, Platform
+#+TAGLINE: Software Engineering - Clean Code - System Design
+#+SETUPFILE: basecv.org
+#+EXPORT_FILE_NAME: John_Doe_cv.pdf
+
+#+INCLUDE: "./basecv.org::*Header"
+
+* Senior Software Engineer        :generic:
+:PROPERTIES:
+:CUSTOM_ID: introduction
+:END:
+
+{{{introduction}}}
+
+*Software engineer* passionate about building elegant solutions to complex
+problems. Enjoys working with distributed systems and creating developer tools
+that improve team productivity. Believes in writing clean, testable code and
+fostering collaborative engineering cultures. Always eager to learn new
+technologies and share knowledge with peers through mentoring and technical
+documentation.
+
+* Senior Software Engineer :tooling:noexport:
+:PROPERTIES:
+:CUSTOM_ID: introduction
+:END:
+
+{{{introduction(
+        Backend Development — API Design — Problem Solving,
+        Building reliable software that solves real problems for users and
+        businesses alike.
+)}}}
+
+*Software engineer* who thrives on solving challenging technical puzzles and
+turning ideas into working software. Experienced in designing APIs, building
+automation tools, and improving existing codebases. Values simplicity and
+pragmatism over complexity. Comfortable working independently or as part of
+a team, adapting to different project needs and company cultures. Committed
+to delivering value through well-crafted software that users and developers
+love to work with.
+
+* Career Highlights               :generic:
+:PROPERTIES:
+:CUSTOM_ID: career-highlights
+:END:
+
+#+INCLUDE: "./basecv.org::*Database optimization"
+#+INCLUDE: "./basecv.org::*Migration leadership"
+#+INCLUDE: "./basecv.org::*Search implementation"
+* Career Highlights               :tooling:noexport:
+:PROPERTIES:
+:CUSTOM_ID: career-highlights
+:END:
+
+*Performance tuning*: Identified and resolved critical database bottlenecks,
+reducing average query time from 2 seconds to under 50ms and enabling the
+platform to handle *3x more concurrent users* without infrastructure
+changes.
+#+BEGIN_EXPORT latex
+\\[0.2\baselineskip]
+#+END_EXPORT
+
+*Developer experience*: Created an internal CLI tool that automated common
+ development tasks like environment setup, database seeding, and test
+ execution, *saving each developer 2+ hours per week* and standardizing
+ workflows across teams.
+#+BEGIN_EXPORT latex
+\\[0.2\baselineskip]
+#+END_EXPORT
+
+*API redesign*: Led the migration from a monolithic REST API to a modular
+GraphQL gateway, improving client flexibility and *reducing frontend
+development time by 40%* for new features.
+
+* Strengths Snapshots
+:PROPERTIES:
+:CUSTOM_ID: strengths-snapshots
+:END:
+
+{{{strengths(
+        Full-stack Development,
+        Database Design \& Optimization,
+        CI/CD Pipeline Configuration,
+        Technical Writing \& Documentation,
+        REST \& GraphQL API Design,
+        Unit \& Integration Testing,
+        Debugging \& Performance Profiling,
+        Code Review \& Mentoring,
+        Agile \& Scrum Methodologies,
+)}}}
+
+* Software Engineering Experience and Milestones
+:PROPERTIES:
+:CUSTOM_ID: experience
+:END:
+
+** FINTECH CORP
+:PROPERTIES:
+:POSITION: Senior Software Engineer
+:LOCATION: Germany, Berlin, Hybrid
+:DATE: September 2025 - Current
+:END:
+
+#+BEGIN_cvdescription
+Building internal tools for payment processing and transaction management.
+Working closely with product and compliance teams to ensure regulatory
+requirements are met. Contributing to the shared component library and
+participating in architecture reviews for new features.
+#+END_cvdescription
+
+#+ATTR_LATEX: :options \setlength{\itemsep}{-2pt}
+- Implemented a real-time notification system using WebSockets that
+  delivers transaction updates to mobile clients with sub-second latency
+- Built a configuration management dashboard that reduced deployment
+  errors by allowing non-technical staff to update feature flags safely.
+
+** DATAFLOW SYSTEMS
+:PROPERTIES:
+:POSITION: Senior Software Engineer
+:LOCATION: United States of America, New York, Remote
+:DATE: February 2022 - September 2025
+:END:
+
+#+BEGIN_cvdescription
+Joined as part of the platform team responsible for core services used by
+multiple product lines. Focused on improving reliability, reducing technical
+debt, and building tools that helped other engineers ship faster.
+#+END_cvdescription
+
+#+ATTR_LATEX: :options \setlength{\itemsep}{-2pt}
+- Created a schema migration tool that validated changes against production
+  data patterns, *catching 15+ potential incidents* before deployment.
+- Rewrote the authentication middleware to support multi-tenant workloads,
+  enabling the sales team to onboard enterprise clients with custom SSO.
+- Set up automated load testing in CI that runs nightly, providing performance
+  regression alerts before code reaches staging environments.
+- Mentored two junior developers through their first major feature launches,
+  establishing code review practices adopted by other teams.
+
+** PROPTECH SOLUTIONS
+:PROPERTIES:
+:POSITION: Senior Software Engineer
+:LOCATION: United Kingdom, London, Remote
+:DATE: June 2021 - January 2022
+:END:
+
+#+BEGIN_cvdescription
+First backend hire at an early-stage startup. Responsible for building the
+initial API, setting up infrastructure, and establishing engineering practices
+as the team grew from 3 to 12 people.
+#+END_cvdescription
+
+#+ATTR_LATEX: :options \setlength{\itemsep}{-2pt}
+- Designed the core data model and API that powered the first version of the
+  product, still in use today with minimal modifications after *2 years*.
+- Introduced trunk-based development and feature flags, reducing merge
+  conflicts and enabling weekly releases instead of monthly.
+- Built a webhook delivery system with automatic retries and dead-letter
+  queues, achieving *99.9% delivery rate* for partner integrations.
+
+** DIGITAL AGENCY
+:PROPERTIES:
+:POSITION: Software Engineer
+:LOCATION: Germany, Munich, Hybrid
+:DATE: October 2018 - June 2021
+:END:
+
+#+BEGIN_cvdescription
+Worked on various client projects ranging from e-commerce platforms to internal
+business tools. Gained experience across different tech stacks and learned to
+quickly adapt to new codebases and team dynamics.
+#+END_cvdescription
+
+#+ATTR_LATEX: :options \setlength{\itemsep}{-2pt}
+- Built a inventory sync service connecting Shopify stores with warehouse
+  management systems, processing *50k+ SKU updates daily*.
+- Developed a custom reporting dashboard that replaced manual Excel workflows,
+  saving the finance team approximately *8 hours per week*.
+- Created reusable Docker Compose configurations adopted across 5+ projects,
+  standardizing local development environments.
+- Contributed to an open-source pagination library that now has *200+ GitHub
+  stars* and is used in production by several companies.
+
+** CLOUD PUBLISHERS
+:PROPERTIES:
+:POSITION: Software Engineer
+:LOCATION: Germany, Berlin, Remote
+:DATE: December 2015 - October 2018
+:END:
+
+#+BEGIN_cvdescription
+Started as an intern and grew into a full-time role. Learned professional
+software development practices including version control, code review, and
+agile methodologies while contributing to customer-facing features.
+#+END_cvdescription
+
+#+ATTR_LATEX: :options \setlength{\itemsep}{-2pt}
+- Migrated email templates from a legacy system to a modern templating engine,
+  improving rendering speed and enabling A/B testing capabilities.
+- Fixed a long-standing timezone bug in the scheduling module that had caused
+  *recurring customer complaints* for over a year.
+- Wrote comprehensive API documentation that reduced support tickets related
+  to integration questions by approximately *25%*.
+
+* Prior Positions :ignore:
+#+INCLUDE: "./basecv.org::*Prior Engagement"
+* Education :ignore:
+#+INCLUDE: "./basecv.org::*Education" :minlevel 1
+* Technical Acumen :ignore:
+#+INCLUDE: "./basecv.org::*Technical Acumen" :minlevel 1
+* Language Proficiencies :ignore:
+#+INCLUDE: "./basecv.org::*Language Proficiencies" :minlevel 1

@@ -1,0 +1,119 @@
+#+LATEX_CLASS: custom
+#+OPTIONS: toc:nil timestamp:nil tags:nil
+
+#+MACRO: introduction \introduction
+#+MACRO: position \position{$1}{$2}{$3}{$4}
+#+MACRO: heading \heading
+#+MACRO: strengths \strengths{$1}{$2}{$3}{$4}{$5}{$6}{$7}{$8}{$9}
+#+MACRO: new-page \newpage
+
+#+SUMMARY: Experienced Software Engineer delivering quality solutions across various environments and team sizes.
+
+#+BEGIN_COMMENT
+# Latex dependencies:
+sudo tlmgr install wrapfig preprint titlesec marvosym enumitem \
+        tcolorbox tikzfill pdfcol listingsutf8 changepage listings \
+        ulem biblatex
+#+END_COMMENT
+
+* Header
+:PROPERTIES:
+:CUSTOM_ID: header
+:CV_LOCATION: Berlin, Germany
+:CV_PHONE: 0491701234567
+:CV_PHONE_DISPLAY: +49 170 1234567
+:CV_EMAIL: john.doe@example.com
+:CV_USERNAME: johndoe
+:CV_WEBSITE: https://johndoe.dev
+:END:
+
+* Highlights
+** Database optimization
+:PROPERTIES:
+:HIGHLIGHT: t
+:END:
+
+Identified slow queries causing checkout failures during peak traffic. Added
+proper indexing and query optimization that reduced p99 latency from 4s to
+200ms, *eliminating timeout errors* and improving conversion rates.
+** Migration leadership
+:PROPERTIES:
+:HIGHLIGHT: t
+:END:
+
+Led the migration of a 10-year-old PHP monolith to microservices over 18 months.
+Coordinated with 4 teams, maintained zero downtime during cutover, and
+*reduced infrastructure costs by 40%* through right-sized containers.
+** Search implementation
+:PROPERTIES:
+:HIGHLIGHT: t
+:END:
+
+Built a full-text search feature using Elasticsearch that replaced a slow SQL
+LIKE query. Implemented autocomplete, typo tolerance, and faceted filtering.
+Search latency dropped from 3s to 50ms, *increasing user engagement by 25%*.
+** Open source contribution
+:PROPERTIES:
+:HIGHLIGHT: t
+:END:
+
+Became a maintainer of a popular validation library after fixing several bugs
+and adding TypeScript support. The library now has *5k+ weekly downloads* and
+is used by multiple Fortune 500 companies.
+
+* Education
+:PROPERTIES:
+:CUSTOM_ID: education
+:END:
+
+*Master of Science (Computer Science)* – Technical University of Berlin,
+Berlin, Germany
+
+*Bachelor of Science (Computer Science)* – Technical University of Berlin,
+Berlin, Germany
+
+* Technical Acumen
+:PROPERTIES:
+:CUSTOM_ID: technical-acumen
+:END:
+
+Technical acumen includes, but is not limited to:
+
+*Programming Languages*: /Python/ and /Go/.
+
+*Databases*: /PostgreSQL/ and /MySQL/.
+
+*Messaging & Streaming*: /Kafka/.
+
+*Infrastructure & Cloud*: /Docker/ and /Kubernetes/.
+
+*Libraries & Frameworks*: /FastAPI/.
+
+*Data & Analytics*: /Apache Airflow/ and /dbt/.
+
+* Prior Engagement
+:PROPERTIES:
+:PRIOR_HEADING: t
+:CUSTOM_ID: prior-positions
+:END:
+
+** TECHSTART
+:PROPERTIES:
+:PRIOR_POSITION: Software Developer
+:LOCATION: Germany, Munich
+:DATE: Aug 2014 - June 2015
+:END:
+
+** WEBAPPS INC
+:PROPERTIES:
+:PRIOR_POSITION: Software Developer
+:LOCATION: Germany, Berlin
+:DATE: June 2012 - November 2013
+:END:
+
+* Language Proficiencies
+:PROPERTIES:
+:CUSTOM_ID: languages
+:END:
+
+English (Fluent), German (Fluent) and French (Conversational).

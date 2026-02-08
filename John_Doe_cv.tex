@@ -1,0 +1,173 @@
+% Intended LaTeX compiler: pdflatex
+\documentclass{custom}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{John Doe}
+\date{\today}
+\title{John Doe}
+\hypersetup{
+ pdfauthor={John Doe},
+ pdftitle={John Doe},
+ pdfkeywords={Python, Go, Software Engineering, API Development, Tooling, Django, FastAPI, Platform},
+ pdfsubject={Senior Software Engineer},
+ pdfcreator={Emacs 30.2 (Org mode 9.7.34)},
+ pdflang={English}}
+\usepackage{biblatex}
+
+\cvtagline{Software Engineering - Clean Code - System Design}
+\cvsummary{Experienced Software Engineer delivering quality solutions across various environments and team sizes.}
+\begin{document}
+
+\maketitle
+\heading
+\contactinfo{Berlin, Germany}{0491701234567}{+49 170 1234567}{john.doe@example.com}{johndoe}{https://johndoe.dev}
+\section{Senior Software Engineer}
+\label{introduction}
+\introduction
+
+\textbf{Software engineer} passionate about building elegant solutions to complex
+problems. Enjoys working with distributed systems and creating developer tools
+that improve team productivity. Believes in writing clean, testable code and
+fostering collaborative engineering cultures. Always eager to learn new
+technologies and share knowledge with peers through mentoring and technical
+documentation.
+\section{Career Highlights}
+\label{career-highlights}
+\textbf{Database optimization}: Identified slow queries causing checkout failures during peak traffic. Added
+proper indexing and query optimization that reduced p99 latency from 4s to
+200ms, \textbf{eliminating timeout errors} and improving conversion rates.
+\\[0.2\baselineskip]
+\textbf{Migration leadership}: Led the migration of a 10-year-old PHP monolith to microservices over 18 months.
+Coordinated with 4 teams, maintained zero downtime during cutover, and
+\textbf{reduced infrastructure costs by 40\%} through right-sized containers.
+\\[0.2\baselineskip]
+\textbf{Search implementation}: Built a full-text search feature using Elasticsearch that replaced a slow SQL
+LIKE query. Implemented autocomplete, typo tolerance, and faceted filtering.
+Search latency dropped from 3s to 50ms, \textbf{increasing user engagement by 25\%}.
+\\[0.2\baselineskip]
+\section{Strengths Snapshots}
+\label{strengths-snapshots}
+\strengths{Full-stack Development}{ Database Design \& Optimization}{ CI/CD Pipeline Configuration}{ Technical Writing \& Documentation}{ REST \& GraphQL API Design}{ Unit \& Integration Testing}{ Debugging \& Performance Profiling}{ Code Review \& Mentoring}{ Agile \& Scrum Methodologies}
+\section{Software Engineering Experience and Milestones}
+\label{experience}
+\position{Senior Software Engineer}{FINTECH CORP}{Germany, Berlin, Hybrid}{September 2025 - Current}
+
+\begin{cvdescription}
+Building internal tools for payment processing and transaction management.
+Working closely with product and compliance teams to ensure regulatory
+requirements are met. Contributing to the shared component library and
+participating in architecture reviews for new features.
+\end{cvdescription}
+
+\begin{itemize}\setlength{\itemsep}{-2pt}
+\item Implemented a real-time notification system using WebSockets that
+delivers transaction updates to mobile clients with sub-second latency
+\item Built a configuration management dashboard that reduced deployment
+errors by allowing non-technical staff to update feature flags safely.
+\end{itemize}
+\position{Senior Software Engineer}{DATAFLOW SYSTEMS}{United States of America, New York, Remote}{February 2022 - September 2025}
+
+\begin{cvdescription}
+Joined as part of the platform team responsible for core services used by
+multiple product lines. Focused on improving reliability, reducing technical
+debt, and building tools that helped other engineers ship faster.
+\end{cvdescription}
+
+\begin{itemize}\setlength{\itemsep}{-2pt}
+\item Created a schema migration tool that validated changes against production
+data patterns, \textbf{catching 15+ potential incidents} before deployment.
+\item Rewrote the authentication middleware to support multi-tenant workloads,
+enabling the sales team to onboard enterprise clients with custom SSO.
+\item Set up automated load testing in CI that runs nightly, providing performance
+regression alerts before code reaches staging environments.
+\item Mentored two junior developers through their first major feature launches,
+establishing code review practices adopted by other teams.
+\end{itemize}
+\position{Senior Software Engineer}{PROPTECH SOLUTIONS}{United Kingdom, London, Remote}{June 2021 - January 2022}
+
+\begin{cvdescription}
+First backend hire at an early-stage startup. Responsible for building the
+initial API, setting up infrastructure, and establishing engineering practices
+as the team grew from 3 to 12 people.
+\end{cvdescription}
+
+\begin{itemize}\setlength{\itemsep}{-2pt}
+\item Designed the core data model and API that powered the first version of the
+product, still in use today with minimal modifications after \textbf{2 years}.
+\item Introduced trunk-based development and feature flags, reducing merge
+conflicts and enabling weekly releases instead of monthly.
+\item Built a webhook delivery system with automatic retries and dead-letter
+queues, achieving \textbf{99.9\% delivery rate} for partner integrations.
+\end{itemize}
+\position{Software Engineer}{DIGITAL AGENCY}{Germany, Munich, Hybrid}{October 2018 - June 2021}
+
+\begin{cvdescription}
+Worked on various client projects ranging from e-commerce platforms to internal
+business tools. Gained experience across different tech stacks and learned to
+quickly adapt to new codebases and team dynamics.
+\end{cvdescription}
+
+\begin{itemize}\setlength{\itemsep}{-2pt}
+\item Built a inventory sync service connecting Shopify stores with warehouse
+management systems, processing \textbf{50k+ SKU updates daily}.
+\item Developed a custom reporting dashboard that replaced manual Excel workflows,
+saving the finance team approximately \textbf{8 hours per week}.
+\item Created reusable Docker Compose configurations adopted across 5+ projects,
+standardizing local development environments.
+\item Contributed to an open-source pagination library that now has \textbf{200+ GitHub
+stars} and is used in production by several companies.
+\end{itemize}
+\position{Software Engineer}{CLOUD PUBLISHERS}{Germany, Berlin, Remote}{December 2015 - October 2018}
+
+\begin{cvdescription}
+Started as an intern and grew into a full-time role. Learned professional
+software development practices including version control, code review, and
+agile methodologies while contributing to customer-facing features.
+\end{cvdescription}
+
+\begin{itemize}\setlength{\itemsep}{-2pt}
+\item Migrated email templates from a legacy system to a modern templating engine,
+improving rendering speed and enabling A/B testing capabilities.
+\item Fixed a long-standing timezone bug in the scheduling module that had caused
+\textbf{recurring customer complaints} for over a year.
+\item Wrote comprehensive API documentation that reduced support tickets related
+to integration questions by approximately \textbf{25\%}.
+\end{itemize}
+\priorheading
+\priorposition{Software Developer}{TECHSTART}{Germany, Munich}{Aug 2014 - June 2015}
+\priorposition{Software Developer}{WEBAPPS INC}{Germany, Berlin}{June 2012 - November 2013}
+\section{Education}
+\label{education}
+\textbf{Master of Science (Computer Science)} – Technical University of Berlin,
+Berlin, Germany
+
+\textbf{Bachelor of Science (Computer Science)} – Technical University of Berlin,
+Berlin, Germany
+\section{Technical Acumen}
+\label{technical-acumen}
+Technical acumen includes, but is not limited to:
+
+\textbf{Programming Languages}: \emph{Python} and \emph{Go}.
+
+\textbf{Databases}: \emph{PostgreSQL} and \emph{MySQL}.
+
+\textbf{Messaging \& Streaming}: \emph{Kafka}.
+
+\textbf{Infrastructure \& Cloud}: \emph{Docker} and \emph{Kubernetes}.
+
+\textbf{Libraries \& Frameworks}: \emph{FastAPI}.
+
+\textbf{Data \& Analytics}: \emph{Apache Airflow} and \emph{dbt}.
+\section{Language Proficiencies}
+\label{languages}
+English (Fluent), German (Fluent) and French (Conversational).
+\end{document}

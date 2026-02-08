@@ -1,0 +1,145 @@
+#+AUTHOR: John Doe
+#+TITLE: John Doe
+#+DESCRIPTION: Senior Software Engineer
+#+KEYWORDS: Python, Go, Software Engineering, API Development, Distributed Systems
+#+TAGLINE: Software Engineering - Distributed Systems - Developer Tooling
+#+SETUPFILE: basecv.org
+#+EXPORT_FILE_NAME: John_Doe_cv.pdf
+
+#+INCLUDE: "./basecv.org::*Header"
+
+* Senior Software Engineer        :generic:
+:PROPERTIES:
+:CUSTOM_ID: introduction
+:OPENER: t
+:END:
+
+*Software engineer* with over ten years of experience building scalable backend
+services, distributed systems, and developer tooling. Focused on writing clean,
+maintainable code and collaborating effectively across teams to deliver reliable
+software at pace.
+
+* Career Highlights               :generic:
+:PROPERTIES:
+:CUSTOM_ID: career-highlights
+:END:
+
+#+INCLUDE: "./basecv.org::*Highlight one"
+#+INCLUDE: "./basecv.org::*Highlight two"
+#+INCLUDE: "./basecv.org::*Highlight three"
+
+* Strengths Snapshots
+:PROPERTIES:
+:CUSTOM_ID: strengths-snapshots
+:END:
+
+#+LATEX: \begingroup\renewcommand{\arraystretch}{1.4}\setlength{\tabcolsep}{8pt}
+#+ATTR_LATEX: :environment tabularx :width \textwidth :align @{}XXX@{} :booktabs nil
+| \textbullet{} API Design & Development  | \textbullet{} Distributed Systems | \textbullet{} Cloud Infrastructure (AWS) |
+| \textbullet{} Test-Driven Development   | \textbullet{} System Design       | \textbullet{} Code Review & Mentorship   |
+| \textbullet{} CI/CD Pipeline Automation | \textbullet{} Database Design     | \textbullet{} Observability & Monitoring |
+#+LATEX: \endgroup\vspace{-0.1cm}
+
+* Software Engineering Experience and Milestones
+:PROPERTIES:
+:CUSTOM_ID: experience
+:END:
+
+** Stripe
+:PROPERTIES:
+:POSITION: Senior Software Engineer
+:LOCATION: Netherlands, Amsterdam, Remote
+:DATE: March 2022 - Current
+:END:
+
+#+BEGIN_cvdescription
+Part of the developer platform team responsible for internal tooling and APIs used by
+600+ engineers across the organisation. Brought in to improve the reliability and
+consistency of service infrastructure patterns as the platform scaled.
+#+END_cvdescription
+
+#+ATTR_LATEX: :options \setlength{\itemsep}{-2pt}
+- Led the redesign of the internal service mesh configuration system, standardising patterns across services and reducing deployment times.
+- Built a distributed rate-limiting service handling millions of requests per second, improving reliability for payment integrations.
+
+** Datadog
+:PROPERTIES:
+:POSITION: Senior Software Engineer
+:LOCATION: Netherlands, Amsterdam, Remote
+:DATE: January 2020 - February 2022
+:END:
+
+#+BEGIN_cvdescription
+Worked on the metrics ingestion pipeline responsible for processing billions of data
+points daily. Joined to help the team tackle performance bottlenecks and extend the
+platform to support new customer data types at scale.
+#+END_cvdescription
+
+#+ATTR_LATEX: :options \setlength{\itemsep}{-2pt}
+- Redesigned the metadata enrichment layer, improving query accuracy and reducing per-event processing overhead.
+- Rewrote a legacy Go service handling metric aggregation, enabling the team to extend functionality previously blocked by technical debt.
+- Set up contract testing in CI, catching breaking API changes before they reached production.
+- Mentored junior engineers, establishing Go idioms and code review standards adopted across the backend guild.
+
+** Thoughtworks
+:PROPERTIES:
+:POSITION: Senior Software Engineer
+:LOCATION: Germany, Berlin, Remote
+:DATE: June 2018 - December 2019
+:END:
+
+#+BEGIN_cvdescription
+Delivered backend solutions across multiple client engagements in fintech and
+e-commerce. Responsible for technical leadership on client projects from discovery
+through to production, working closely with product and design stakeholders.
+#+END_cvdescription
+
+#+ATTR_LATEX: :options \setlength{\itemsep}{-2pt}
+- Designed the core data model and REST API for a payments platform, forming the foundation for the client's first production release.
+- Introduced trunk-based development and feature flag practices, improving release cadence and reducing merge friction across teams.
+- Built an event delivery system with retry logic and dead-letter queuing, improving reliability for third-party integrations.
+
+** Booking.com
+:PROPERTIES:
+:POSITION: Software Engineer
+:LOCATION: Netherlands, Amsterdam, Hybrid
+:DATE: January 2016 - May 2018
+:END:
+
+#+BEGIN_cvdescription
+Part of the supply integration team responsible for connecting hotel property
+management systems to the Booking platform. Worked within a large distributed
+engineering organisation to maintain and extend high-volume data pipelines.
+#+END_cvdescription
+
+#+ATTR_LATEX: :options \setlength{\itemsep}{-2pt}
+- Built a sync service processing millions of availability and pricing updates daily from 50+ external partners.
+- Developed an internal reporting dashboard that replaced manual data exports, saving significant weekly effort for the operations team.
+- Created reusable Terraform modules for service infrastructure, adopted across eight product teams.
+
+** Backbase
+:PROPERTIES:
+:POSITION: Software Engineer
+:LOCATION: Netherlands, Amsterdam, Remote
+:DATE: September 2013 - December 2015
+:END:
+
+#+BEGIN_cvdescription
+Worked on the core banking platform, contributing to features used by over 30 banking
+clients worldwide. Joined as a mid-level engineer and grew into ownership of key
+modules within the notification and scheduling subsystems.
+#+END_cvdescription
+
+#+ATTR_LATEX: :options \setlength{\itemsep}{-2pt}
+- Migrated email and notification templates from a legacy Velocity engine to a modern React-based renderer, improving customisation speed and flexibility.
+- Fixed a critical bug in the scheduling module that had caused intermittent failures in overnight batch jobs for multiple clients.
+- Wrote API documentation that significantly reduced support tickets raised by client integration teams.
+
+* Prior Positions :ignore:
+#+INCLUDE: "./basecv.org::*Prior Engagement"
+* Education :ignore:
+#+INCLUDE: "./basecv.org::*Education" :minlevel 1
+* Technical Acumen :ignore:
+#+INCLUDE: "./basecv.org::*Technical Acumen" :minlevel 1
+* Language Proficiencies :ignore:
+#+INCLUDE: "./basecv.org::*Language Proficiencies" :minlevel 1

@@ -1,0 +1,112 @@
+#+LATEX_CLASS: custom
+#+OPTIONS: toc:nil timestamp:nil tags:nil
+
+#+MACRO: new-page \newpage
+
+#+SUMMARY: Experienced Software Engineer delivering scalable backend systems across distributed environments and cross-functional teams.
+
+#+BEGIN_COMMENT
+# Latex dependencies:
+sudo tlmgr install wrapfig preprint titlesec marvosym enumitem \
+        tcolorbox tikzfill pdfcol listingsutf8 changepage listings \
+        ulem biblatex
+#+END_COMMENT
+
+* Header
+:PROPERTIES:
+:CUSTOM_ID: header
+:CV_LOCATION: Amsterdam, Netherlands
+:CV_PHONE: 31612345678
+:CV_PHONE_DISPLAY: +31 6 12 345 678
+:CV_EMAIL: john.doe@example.com
+:CV_USERNAME: johndoe
+:CV_WEBSITE: https://johndoe.dev
+:END:
+
+* Highlights
+** Highlight one
+:PROPERTIES:
+:HIGHLIGHT: t
+:END:
+
+Led the migration of a monolithic payment processing service to a microservices
+architecture, enabling independent deployments and reducing team release cycles
+from two weeks to daily with no regression in stability.
+
+** Highlight two
+:PROPERTIES:
+:HIGHLIGHT: t
+:END:
+
+Designed and built a real-time event ingestion pipeline capable of sustaining peak
+traffic without data loss, replacing a fragile batch-based approach that had caused
+repeated customer-facing outages.
+
+** Highlight three
+:PROPERTIES:
+:HIGHLIGHT: t
+:END:
+
+Introduced structured observability practices — distributed tracing, standardised
+logging, and service-level dashboards — across a platform team, significantly reducing
+mean time to resolution during production incidents.
+
+** Highlight four
+:PROPERTIES:
+:HIGHLIGHT: t
+:END:
+
+Drove the adoption of API contract testing and automated integration suites across
+three teams, eliminating an entire class of production regressions caused by
+undiscovered cross-service breaking changes.
+
+* Education
+:PROPERTIES:
+:CUSTOM_ID: education
+:END:
+
+#+ATTR_LATEX: :environment tabular* :width \textwidth :align @{}l@{\hspace{0.5em}}l@{}
+| *Master of Science (Computer Science)*   | – University of Amsterdam, Amsterdam, Netherlands    |
+| *Bachelor of Science (Computer Science)* | – Delft University of Technology, Delft, Netherlands |
+
+* Technical Acumen
+:PROPERTIES:
+:CUSTOM_ID: technical-acumen
+:END:
+
+Technical acumen includes, but is not limited to:
+
+#+ATTR_LATEX: :environment tabularx :width \textwidth :align l@{\hspace{1em}}X
+| *Programming Languages*:  | /Python/, /Go/ and /TypeScript/.  |
+| *Databases*:              | /PostgreSQL/ and /Redis/.         |
+| *Messaging & Streaming*:  | /Apache Kafka/ and /RabbitMQ/.    |
+| *Infrastructure & Cloud*: | /Docker/, /Kubernetes/ and /AWS/. |
+| *Libraries & Frameworks*: | /FastAPI/, /gRPC/ and /React/.    |
+| *Data & Analytics*:       | /Apache Spark/ and /dbt/.         |
+
+* Prior Engagement
+:PROPERTIES:
+:PRIOR_HEADING: t
+:CUSTOM_ID: prior-positions
+:END:
+
+** Coolblue
+:PROPERTIES:
+:PRIOR_POSITION: Junior Software Developer
+:LOCATION: Netherlands, Rotterdam
+:DATE: June 2012 - August 2013
+:END:
+
+** TU Delft — Research Group
+:PROPERTIES:
+:PRIOR_POSITION: Software Development Intern
+:LOCATION: Netherlands, Delft
+:DATE: February 2011 - May 2012
+:END:
+
+* Language Proficiencies
+:PROPERTIES:
+:CUSTOM_ID: languages
+:END:
+
+English (Fluent) and Dutch (Conversational).

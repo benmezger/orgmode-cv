@@ -1,0 +1,159 @@
+% Intended LaTeX compiler: pdflatex
+\documentclass{custom}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{John Doe}
+\date{\today}
+\title{John Doe}
+\hypersetup{
+ pdfauthor={John Doe},
+ pdftitle={John Doe},
+ pdfkeywords={Python, Go, Software Engineering, API Development, Distributed Systems},
+ pdfsubject={Senior Software Engineer},
+ pdfcreator={Emacs 30.2 (Org mode 9.7.34)},
+ pdflang={English}}
+\cvtagline{Software Engineering - Distributed Systems - Developer Tooling}
+\cvsummary{Experienced Software Engineer delivering scalable backend systems across distributed environments and cross-functional teams.}
+\begin{document}
+
+\maketitle
+\heading
+\contactinfo{Amsterdam, Netherlands}{31612345678}{+31 6 12 345 678}{john.doe@example.com}{johndoe}{https://johndoe.dev}
+\section{Senior Software Engineer}
+\label{introduction}
+\introduction
+
+\textbf{Software engineer} with over ten years of experience building scalable backend
+services, distributed systems, and developer tooling. Focused on writing clean,
+maintainable code and collaborating effectively across teams to deliver reliable
+software at pace.
+\section{Career Highlights}
+\label{career-highlights}
+\textbf{Highlight one}: Led the migration of a monolithic payment processing service to a microservices
+architecture, enabling independent deployments and reducing team release cycles
+from two weeks to daily with no regression in stability.
+\\[0.2\baselineskip]
+\textbf{Highlight two}: Designed and built a real-time event ingestion pipeline capable of sustaining peak
+traffic without data loss, replacing a fragile batch-based approach that had caused
+repeated customer-facing outages.
+\\[0.2\baselineskip]
+\textbf{Highlight three}: Introduced structured observability practices — distributed tracing, standardised
+logging, and service-level dashboards — across a platform team, significantly reducing
+mean time to resolution during production incidents.
+\\[0.2\baselineskip]
+\section{Strengths Snapshots}
+\label{strengths-snapshots}
+\begingroup\renewcommand{\arraystretch}{1.4}\setlength{\tabcolsep}{8pt}
+\begin{center}
+\begin{tabularx}{\textwidth}{@{}XXX@{}}
+\textbullet{} API Design \& Development & \textbullet{} Distributed Systems & \textbullet{} Cloud Infrastructure (AWS)\\
+\textbullet{} Test-Driven Development & \textbullet{} System Design & \textbullet{} Code Review \& Mentorship\\
+\textbullet{} CI/CD Pipeline Automation & \textbullet{} Database Design & \textbullet{} Observability \& Monitoring\\
+\end{tabularx}
+\end{center}
+\endgroup\vspace{-0.1cm}
+\section{Software Engineering Experience and Milestones}
+\label{experience}
+\position{Senior Software Engineer}{Stripe}{Netherlands, Amsterdam, Remote}{March 2022 - Current}
+
+\begin{cvdescription}
+Part of the developer platform team responsible for internal tooling and APIs used by
+600+ engineers across the organisation. Brought in to improve the reliability and
+consistency of service infrastructure patterns as the platform scaled.
+\end{cvdescription}
+
+\begin{itemize}\setlength{\itemsep}{-2pt}
+\item Led the redesign of the internal service mesh configuration system, standardising patterns across services and reducing deployment times.
+\item Built a distributed rate-limiting service handling millions of requests per second, improving reliability for payment integrations.
+\end{itemize}
+\position{Senior Software Engineer}{Datadog}{Netherlands, Amsterdam, Remote}{January 2020 - February 2022}
+
+\begin{cvdescription}
+Worked on the metrics ingestion pipeline responsible for processing billions of data
+points daily. Joined to help the team tackle performance bottlenecks and extend the
+platform to support new customer data types at scale.
+\end{cvdescription}
+
+\begin{itemize}\setlength{\itemsep}{-2pt}
+\item Redesigned the metadata enrichment layer, improving query accuracy and reducing per-event processing overhead.
+\item Rewrote a legacy Go service handling metric aggregation, enabling the team to extend functionality previously blocked by technical debt.
+\item Set up contract testing in CI, catching breaking API changes before they reached production.
+\item Mentored junior engineers, establishing Go idioms and code review standards adopted across the backend guild.
+\end{itemize}
+\position{Senior Software Engineer}{Thoughtworks}{Germany, Berlin, Remote}{June 2018 - December 2019}
+
+\begin{cvdescription}
+Delivered backend solutions across multiple client engagements in fintech and
+e-commerce. Responsible for technical leadership on client projects from discovery
+through to production, working closely with product and design stakeholders.
+\end{cvdescription}
+
+\begin{itemize}\setlength{\itemsep}{-2pt}
+\item Designed the core data model and REST API for a payments platform, forming the foundation for the client's first production release.
+\item Introduced trunk-based development and feature flag practices, improving release cadence and reducing merge friction across teams.
+\item Built an event delivery system with retry logic and dead-letter queuing, improving reliability for third-party integrations.
+\end{itemize}
+\position{Software Engineer}{Booking.com}{Netherlands, Amsterdam, Hybrid}{January 2016 - May 2018}
+
+\begin{cvdescription}
+Part of the supply integration team responsible for connecting hotel property
+management systems to the Booking platform. Worked within a large distributed
+engineering organisation to maintain and extend high-volume data pipelines.
+\end{cvdescription}
+
+\begin{itemize}\setlength{\itemsep}{-2pt}
+\item Built a sync service processing millions of availability and pricing updates daily from 50+ external partners.
+\item Developed an internal reporting dashboard that replaced manual data exports, saving significant weekly effort for the operations team.
+\item Created reusable Terraform modules for service infrastructure, adopted across eight product teams.
+\end{itemize}
+\position{Software Engineer}{Backbase}{Netherlands, Amsterdam, Remote}{September 2013 - December 2015}
+
+\begin{cvdescription}
+Worked on the core banking platform, contributing to features used by over 30 banking
+clients worldwide. Joined as a mid-level engineer and grew into ownership of key
+modules within the notification and scheduling subsystems.
+\end{cvdescription}
+
+\begin{itemize}\setlength{\itemsep}{-2pt}
+\item Migrated email and notification templates from a legacy Velocity engine to a modern React-based renderer, improving customisation speed and flexibility.
+\item Fixed a critical bug in the scheduling module that had caused intermittent failures in overnight batch jobs for multiple clients.
+\item Wrote API documentation that significantly reduced support tickets raised by client integration teams.
+\end{itemize}
+\priorheading
+\priorposition{Junior Software Developer}{Coolblue}{Netherlands, Rotterdam}{June 2012 - August 2013}
+\priorposition{Software Development Intern}{TU Delft — Research Group}{Netherlands, Delft}{February 2011 - May 2012}
+\section{Education}
+\label{education}
+\begin{center}
+\begin{tabular*}{\textwidth}{@{}l@{\hspace{0.5em}}l@{}}
+\textbf{Master of Science (Computer Science)} & – University of Amsterdam, Amsterdam, Netherlands\\
+\textbf{Bachelor of Science (Computer Science)} & – Delft University of Technology, Delft, Netherlands\\
+\end{tabular*}
+\end{center}
+\section{Technical Acumen}
+\label{technical-acumen}
+Technical acumen includes, but is not limited to:
+
+\begin{center}
+\begin{tabularx}{\textwidth}{l@{\hspace{1em}}X}
+\textbf{Programming Languages}: & \emph{Python}, \emph{Go} and \emph{TypeScript}.\\
+\textbf{Databases}: & \emph{PostgreSQL} and \emph{Redis}.\\
+\textbf{Messaging \& Streaming}: & \emph{Apache Kafka} and \emph{RabbitMQ}.\\
+\textbf{Infrastructure \& Cloud}: & \emph{Docker}, \emph{Kubernetes} and \emph{AWS}.\\
+\textbf{Libraries \& Frameworks}: & \emph{FastAPI}, \emph{gRPC} and \emph{React}.\\
+\textbf{Data \& Analytics}: & \emph{Apache Spark} and \emph{dbt}.\\
+\end{tabularx}
+\end{center}
+\section{Language Proficiencies}
+\label{languages}
+English (Fluent) and Dutch (Conversational).
+\end{document}

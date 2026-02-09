@@ -119,7 +119,7 @@ participating in architecture reviews for new features.
 ** DATAFLOW SYSTEMS
 :PROPERTIES:
 :POSITION: Senior Software Engineer
-:LOCATION: United States of America, New York, Remote
+:LOCATION: USA, New York, Remote
 :DATE: February 2022 - September 2025
 :END:
 

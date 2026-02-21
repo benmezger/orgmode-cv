@@ -81,7 +81,7 @@
   includehead,
   headheight=45pt,
   left=1cm,
-  bottom=2cm,
+  bottom=1.5cm,
   right=1cm,
   headsep=0.3cm
 ]{geometry}
@@ -94,6 +94,10 @@
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
+
+% Line spacing control for page length
+\setlength{\parskip}{0pt}
+\renewcommand{\baselinestretch}{0.95}
 
 % Section formatting
 \titleformat{\section}{
@@ -108,7 +112,7 @@
 % -------------------- CUSTOM COMMANDS --------------------
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    {#1 \vspace{-3pt}}
   }
 }
 
@@ -137,8 +141,8 @@
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[topsep=0pt, partopsep=0pt, parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \setlength{\footskip}{4.08003pt}
@@ -252,7 +256,7 @@
 }
 
 \newcommand{\strengths}[9]{
-  \vspace{-0.3cm}
+  \vspace{-0.4cm}
   \begin{multicols}{3} \raggedcolumns
     \begin{itemize} \itemsep -1pt
         \item #1
@@ -270,7 +274,7 @@
         \item #9
     \end{itemize}
   \end{multicols}
-  \vspace{-0.2cm}
+  \vspace{-0.3cm}
 }
 
 \newenvironment{cvdescription}{
